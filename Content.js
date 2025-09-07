@@ -13,13 +13,13 @@ document.addEventListener("click", function (e) {
     img.style.width = imgWidth + "px";
     img.style.height = imgHeight + "px";
 
-    // position properly
+
     img.style.position = "fixed";
     img.style.zIndex = "9999";
     img.style.borderRadius = "8px";
     img.style.border = "2px solid red";
 
-    // random coordinates
+
     let randomX = Math.floor(Math.random() * (window.innerWidth - imgWidth));
     let randomY = Math.floor(Math.random() * (window.innerHeight - imgHeight));
 
